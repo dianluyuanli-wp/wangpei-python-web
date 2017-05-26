@@ -117,6 +117,7 @@ BOOTSTRAP3 = {
     }
     
 ALLOWED_HOSTS = ['*']
+STATIC_ROOT = 'staticfiles'
 
 # Heroku settings
 if os.getcwd() == '/app':
